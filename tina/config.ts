@@ -21,9 +21,9 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "src/content/posts",
+        name: "recipe",
+        label: "Recipes",
+        path: "src/content/recipes",
         fields: [
           {
             type: "string",
@@ -38,6 +38,26 @@ export default defineConfig({
             label: "Body",
             isBody: true,
           },
+          {
+            type: "string",
+            name: "complexity",
+            label: "Complexity",
+            required: true,
+            options: [
+              {
+                value: "quick",
+                label: "Quick",
+              },
+              {
+                value: "medium",
+                label: "Medium",
+              },
+              {
+                value: "longer",
+                label: "Longer",
+              }
+            ]
+          }
         ],
       },
     ],

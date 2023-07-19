@@ -2,22 +2,18 @@
 import Layout from '../layouts/Layout.astro';
 import { client } from '../../tina/__generated__/client';
 
-const postsResponse = await client.queries.postConnection();
+const recipesResponse = await client.queries.recipeConnection();
 
-const posts = postsResponse.data.postConnection.edges ?? [];
-const allPosts = posts.flatMap(f => f ? [f] : []);
+const recipesList = recipesResponse.data.recipeConnection.edges ?? [];
+const recipes = recipesList.flatMap(f => f?.node ? [f.node] : []);
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
 		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
 		<ul role="list" class="link-card-grid">
-			{allPosts.map((post) => (
-				<li>{post.node?.title}</li>
+			{recipes.map((recipe) => (
+				<li>{recipe.title}</li>
 			))}
 		</ul>
 	</main>
