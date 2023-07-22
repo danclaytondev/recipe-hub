@@ -1,6 +1,7 @@
 ---
-import { getCollection, getEntry, CollectionEntry } from 'astro:content';
+import { getCollection  } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import CategoryPill from '../../components/CategoryPill.astro';
 
 const recipes = await getCollection('recipes', entry => {
     return !entry.data.isMealIdeaOnly;
@@ -11,15 +12,16 @@ const recipes = await getCollection('recipes', entry => {
 	<main>
         <div class="bg-white px-6 py-4 mb-4 my-2  shadow-md  font-medium text-stone-800">
             <h1 class="font-bold text-2xl">All Recipes</h1>
-                    <ul class="space-y-2 my-2" role="list">
-                        {recipes.map((recipe) => (
-                            <li>
-                                <a class:list={["underline"]} href={'recipes/' + recipe.slug}>
-                                    {recipe.data.title}
-                                </a>
-                            </li>
-                        ))}
-                    </ul>
+                <ul class="space-y-2 my-2" role="list">
+                    {recipes.map((recipe) => (
+                        <li>
+                            <a class:list={["underline"]} href={'recipes/' + recipe.slug}>
+                                {recipe.data.title}
+                            </a>
+                            <CategoryPill category={recipe.data.category} />
+                        </li>
+                    ))}
+                </ul>
         </div>
 	</main>
 </Layout>

@@ -1,0 +1,36 @@
+---
+import type { Category } from '../content/config';
+
+interface Props {
+  category: Category
+}
+
+const { category } = Astro.props;
+
+const tagColors = {
+    "dinner": {
+        fill: 'bg-yellow-100',
+        text: 'text-yellow-900',
+    },
+    "baking": {
+        fill: 'bg-blue-100',
+        text: 'text-blue-900',
+    },
+    "extras": {
+        fill: 'bg-gray-100',
+        text: 'text-gray-900',
+    }
+}
+
+let classes: string[] = [];
+
+if (category) {
+    classes = [tagColors[category].fill, tagColors[category].text];
+}
+
+---
+<span
+    class:list={["text-xs px-2 py-0.5 rounded-full"].concat(classes)}
+>
+{category}
+</span>
