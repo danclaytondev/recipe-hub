@@ -1,0 +1,5 @@
+.astro
+.vscode
+pnpm-lock.yaml
+.github
+.changeset

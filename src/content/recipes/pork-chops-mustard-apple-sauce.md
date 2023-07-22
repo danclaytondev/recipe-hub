@@ -7,10 +7,10 @@ category: dinner
 
 ### Ingredients
 
-* Pork Chops
-* Onion
-* Apple, sliced
-* Wholegrain mustard
-* Sage
-* Splash of stock
-* Flour/Cornflour
+- Pork Chops
+- Onion
+- Apple, sliced
+- Wholegrain mustard
+- Sage
+- Splash of stock
+- Flour/Cornflour

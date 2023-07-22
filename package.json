@@ -8,7 +8,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier . --write"
   },
   "dependencies": {
     "@astrojs/tailwind": "^4.0.0",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@tinacms/cli": "0.0.0-20230628172204",
-    "@types/node": "^20.4.2"
+    "@types/node": "^20.4.2",
+    "prettier": "^3.0.0"
   }
 }
