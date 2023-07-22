@@ -79,7 +79,7 @@ export default defineConfig({
             readonly: false,
             // Example of using a custom slugify function
             slugify: values => {
-              return `${values?.title?.toLowerCase().replace(/ /g, '-').replace(/\+/g, "")}`
+              return `${values?.title?.toLowerCase().replace(/[^a-z0-9_-]/gi, '-').replace(/\-{2,}/g, '-')}`
             },
           },
         },
