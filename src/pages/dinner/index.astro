@@ -1,32 +1,41 @@
 ---
-import { getCollection } from 'astro:content';
-import Layout from '../../layouts/Layout.astro';
-import ComplexityPill from '../../components/ComplexityPill.astro';
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import ComplexityPill from "../../components/ComplexityPill.astro";
 
-const recipes = await getCollection('recipes', entry => {
-    return entry.data.category == "dinner";
-  });
+const recipes = await getCollection("recipes", (entry) => {
+  return entry.data.category == "dinner";
+});
 
 recipes.sort((a, b) => a.data.category.localeCompare(b.data.category));
 ---
 
 <Layout title="Dinner Ideas">
-	<main>
-        <div class="bg-white px-6 py-4 mb-4 my-2  shadow-md  font-medium text-stone-800">
-            <h1 class="font-bold text-2xl">Dinner Recipes and Ideas</h1>
-                <ul class="space-y-2 my-2" role="list">
-                    {recipes.map((recipe) => (
-                        <li>
-                            {recipe.data.isMealIdeaOnly
-                                ? `${recipe.data.title}`
-                                : <a class:list={["underline"]} href={'recipes/' + recipe.slug}>
-                                    {recipe.data.title}
-                                    </a>
-                            }
-                            {recipe.data?.complexity ? <ComplexityPill complexity={recipe.data.complexity}/> : ""}
-                        </li>
-                    ))}
-                </ul>
-        </div>
-	</main>
+  <main>
+    <div
+      class="bg-white px-6 py-4 mb-4 my-2 shadow-md font-medium text-stone-800"
+    >
+      <h1 class="font-bold text-2xl">Dinner Recipes and Ideas</h1>
+      <ul class="space-y-2 my-2" role="list">
+        {
+          recipes.map((recipe) => (
+            <li>
+              {recipe.data.isMealIdeaOnly ? (
+                `${recipe.data.title}`
+              ) : (
+                <a class:list={["underline"]} href={"recipes/" + recipe.slug}>
+                  {recipe.data.title}
+                </a>
+              )}
+              {recipe.data?.complexity ? (
+                <ComplexityPill complexity={recipe.data.complexity} />
+              ) : (
+                ""
+              )}
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </main>
 </Layout>

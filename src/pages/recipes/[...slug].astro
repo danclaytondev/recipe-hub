@@ -1,14 +1,15 @@
 ---
-import { getCollection } from 'astro:content';
-import Layout from '../../layouts/Layout.astro';
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
 
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const recipesEntries = await getCollection('recipes', entry => {
+  const recipesEntries = await getCollection("recipes", (entry) => {
     return !entry.data.isMealIdeaOnly;
   });
-  return recipesEntries.map(entry => ({
-    params: { slug: entry.slug }, props: { entry },
+  return recipesEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
   }));
 }
 // 2. When it's time to render, you can get the entry directly from the prop
@@ -17,11 +18,13 @@ const { Content } = await entry.render();
 ---
 
 <Layout title={entry.data.title}>
-    <div class="py-4"><a href="/" class="text-stone-800">&larr; Back to home</a></div>
-	<div class="bg-white p-6 shadow-md">
-        <h1 class="text-2xl mb-6 font-medium">{entry.data.title}</h1>
-            <article class="prose">
-                <Content />
-            </article>
-    </div>
+  <div class="py-4">
+    <a href="/" class="text-stone-800">&larr; Back to home</a>
+  </div>
+  <div class="bg-white p-6 shadow-md">
+    <h1 class="text-2xl mb-6 font-medium">{entry.data.title}</h1>
+    <article class="prose">
+      <Content />
+    </article>
+  </div>
 </Layout>

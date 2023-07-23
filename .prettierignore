@@ -3,3 +3,5 @@
 pnpm-lock.yaml
 .github
 .changeset
+tina/__generated__/
+tina/tina-lock.json

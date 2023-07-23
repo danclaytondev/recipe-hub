@@ -1,17 +1,25 @@
 ---
-import { getCollection, getEntry, CollectionEntry } from 'astro:content';
-import Layout from '../layouts/Layout.astro';
+import { getCollection, getEntry, CollectionEntry } from "astro:content";
+import Layout from "../layouts/Layout.astro";
 
-const recipes = await getCollection('recipes');
+const recipes = await getCollection("recipes");
 ---
 
 <Layout title="Recipe Hub">
-	<main>
-		<div class="bg-white px-6 py-4 mb-4 my-2  shadow-md  font-medium text-stone-800">
-			<div class="space-y-2 text-lg">
-				<a class="block" href="/recipes">All Recipes &rarr;</a>
-				<a class="block" href="/dinner">Dinner + Meal Ideas &rarr;</a>
-			</div>
-		</div>
-	</main>
+  <main>
+    <div
+      class="flex flex-col space-y-3 sm:space-y-0 sm:space-x-3 sm:flex-row font-medium text-stone-800 p-4 text-lg"
+    >
+      <a class="block bg-white px-6 py-4 shadow-md flex-1" href="/recipes">
+        <h3 class="mb-1">All Recipes &rarr;</h3>
+        <p class="text-base font-normal">
+          All recipes with content, including meals, baking and sides.
+        </p>
+      </a>
+      <a class="block bg-white px-6 py-4 shadow-md flex-1" href="/dinner">
+        <h3 class="mb-1">Dinner + Meal Ideas &rarr;</h3>
+        <p class="text-base font-normal">Just ideas and recipes for tea.</p>
+      </a>
+    </div>
+  </main>
 </Layout>
