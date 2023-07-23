@@ -23,7 +23,7 @@ recipes.sort((a, b) => a.data.category.localeCompare(b.data.category));
               {recipe.data.isMealIdeaOnly ? (
                 `${recipe.data.title}`
               ) : (
-                <a class:list={["underline"]} href={"recipes/" + recipe.slug}>
+                <a class:list={["underline"]} href={"/recipes/" + recipe.slug}>
                   {recipe.data.title}
                 </a>
               )}

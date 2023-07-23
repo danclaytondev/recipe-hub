@@ -18,7 +18,7 @@ const recipes = await getCollection("recipes", (entry) => {
         {
           recipes.map((recipe) => (
             <li>
-              <a class:list={["underline"]} href={"recipes/" + recipe.slug}>
+              <a class:list={["underline"]} href={"/recipes/" + recipe.slug}>
                 {recipe.data.title}
               </a>
               <CategoryPill category={recipe.data.category} />
