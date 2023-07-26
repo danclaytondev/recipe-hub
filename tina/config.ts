@@ -51,7 +51,7 @@ export default defineConfig({
             isBody: true,
             ui: {
               validate: (value, data) => {
-                if (data.isMealIdeaOnly && value.children.length > 1) {
+                if (value && data.isMealIdeaOnly && value.children.length > 1) {
                   return "A meal idea shouldn't have any content.";
                 }
               },
