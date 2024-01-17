@@ -6,16 +6,17 @@ category: dinner
 ---
 
 ### Ingredients
-* 125g fresh lasagne sheets
-* 1 clove garlic
-* ½ a bunch (15g) flat-leaf parsley
-* olive oil
-* 1 higher-welfare pork or veggie sausage
-* 1 tsp fennel seeds
-* Chianti or other Italian red wine
-* 200ml passata
-* Parmesan cheese, for grating
-* Optional: extra virgin olive oil
+
+- 125g fresh lasagne sheets
+- 1 clove garlic
+- ½ a bunch (15g) flat-leaf parsley
+- olive oil
+- 1 higher-welfare pork or veggie sausage
+- 1 tsp fennel seeds
+- Chianti or other Italian red wine
+- 200ml passata
+- Parmesan cheese, for grating
+- Optional: extra virgin olive oil
 
 1. Boil the kettle. Cut the lasagne sheets lengthways into 3cm strips to make pappardelle. Peel and ﬁnely slice the garlic. Finely chop the top leafy half of the parsley, then the stalks, keeping them separate. Put a 28cm frying pan on a high heat.
 

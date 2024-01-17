@@ -6,13 +6,13 @@ category: baking
 
 ### Ingredients
 
-* 100g unsalted butter, softened, plus extra for greasing
-* 150g golden caster sugar
-* 2 eggs, lightly beaten
-* 150g self-raising flour
-* 3 tbsp whole milk
-* 2 lemons, zest and juice
-* 50g granulated sugar
+- 100g unsalted butter, softened, plus extra for greasing
+- 150g golden caster sugar
+- 2 eggs, lightly beaten
+- 150g self-raising flour
+- 3 tbsp whole milk
+- 2 lemons, zest and juice
+- 50g granulated sugar
 
 1. Preheat the oven to 180°C, gas mark 4. Grease and line a 900g loaf tin with baking parchment. In a bowl, use electric beaters to cream together the butter and caster sugar for 3-4 minutes until fluffy and very pale. Beat in the eggs, then sift in the flour and mix well to combine. Stir in the milk and lemon zest.
 2. Spoon the mixture into the prepared loaf tin and bake for about 45 minutes until a skewer inserted into the centre of the cake comes out clean.

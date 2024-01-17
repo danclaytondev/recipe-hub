@@ -6,12 +6,12 @@ category: baking
 
 ### Ingredients
 
-* 4 ripe bananas
-* 125g butter + for greasing
-* 250g self-raising flour
-* 200g caster sugar
-* 3 medium eggs
-* 3 tbsp golden syrup
+- 4 ripe bananas
+- 125g butter + for greasing
+- 250g self-raising flour
+- 200g caster sugar
+- 3 medium eggs
+- 3 tbsp golden syrup
 
 1. Preheat the oven to 180°C/350°F/gas mark 4. Butter a large loaf tin.
 2. Peel the bananas and put them into a food processor. Blend for 10 seconds to break them up.
