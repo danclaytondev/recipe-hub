@@ -8,25 +8,25 @@ category: baking
 Makes 6 decent size buns
 ## For the Dough:
 
-120g warm milk (45 degrees C)
-3.5g instant dry yeast, half a 7g pack
-1 large egg
-40g salted butter** (Melted or very softened, but make sure it isn't over 42C.)
-50g granulated sugar
-1/2 teaspoon salt 
-280g bread flour
+- 120g warm milk (45 degrees C)
+- 3.5g instant dry yeast, half a 7g pack
+- 1 large egg
+- 40g salted butter** (Melted or very softened, but make sure it isn't over 42C.)
+- 50g granulated sugar
+- 1/2 teaspoon salt 
+- 280g bread flour
 
 ## For the Filling:
-57g salted butter (almost melted)
-110g packed brown sugar 
-1 tablespoons cinnamon
-60g double cream*** (for pouring over the risen rolls)
+- 57g salted butter (almost melted)
+- 110g packed brown sugar 
+- 1 tablespoons cinnamon
+- 60g double cream*** (for pouring over the risen rolls)
 
 ## For the Frosting:
-85g cream cheese (softened)
-40g salted butter (softened)
-120g powdered sugar
-dash of vanilla extract
+- 85g cream cheese (softened)
+- 40g salted butter (softened)
+- 120g powdered sugar
+- dash of vanilla extract
 
 # Instructions
 1. Pour the warm milk (45C) in the bowl of a stand mixer and sprinkle the yeast overtop. Allow this to sit for 3-4 minutes. The yeast will get a little frothy to show it is activated. (120 g warm milk, the yeast)
