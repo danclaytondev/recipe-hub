@@ -5,8 +5,6 @@ complexity: quick
 category: dinner
 ---
 
-# Pork Steaks with Apple and Sage
-
 ## Ingredients
 - 4 pork steaks (approx 140g/5oz each), trimmed of excess fat
 - 1 tbsp oil
