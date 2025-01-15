@@ -5,8 +5,6 @@ complexity: medium
 category: dinner
 ---
 
-# Lentil & Bean Chili
-
 ## Ingredients
 
 - 1 pepper
@@ -23,7 +21,7 @@ category: dinner
 - Salt
 - 1 tbsp tomato paste
 - 1 tbsp cocoa powder
-- ½ tbsp chili powder
+- ¼ tbsp chili powder
 - ½ tbsp cumin
 - ½ tbsp smoked paprika
 - A few dashes of Worcestershire sauce
@@ -33,20 +31,34 @@ category: dinner
 
 ## Instructions
 
-1. **Preparation**: Roughly dice the bell pepper and onion. Finely chop the jalapeños, habaneros, and garlic cloves.
+### 1. Prepare the Vegetables
+- Roughly dice the pepper and onion.
+- Finely chop the jalapeños, habaneros, and garlic cloves.
 
-2. **Sauté Vegetables**: Heat a large Dutch oven over medium heat and add enough olive oil to cover the bottom. Once hot, add the bell pepper, jalapeños, and onion along with a pinch of salt. Sauté for 3 minutes until fragrant and slightly softened.
+### 2. Fry the Vegetables
+- Heat a large pan over medium heat and add enough oil to cover the bottom.
+- Once hot, add the pepper, jalapeños, and onion with a pinch of salt. Sauté for 3 minutes until fragrant and slightly softened.
+- Add the chopped garlic and habaneros to the pot and sauté for an additional 30 seconds until fragrant.
 
-3. **Add Garlic and Habanero**: Add the chopped garlic and habaneros to the pot and sauté for an additional 30 seconds until fragrant.
+### 3. Add Spices and Tomato Paste
+- Stir in the tomato paste, cocoa powder, chili powder, cumin, and smoked paprika. Mix for about 30 seconds until dark and fragrant.
 
-4. **Incorporate Spices and Tomato Paste**: Stir in 1 tablespoon each of tomato paste and cocoa powder, and ½ tablespoon each of chili powder, cumin, and smoked paprika. Mix well for about 30 seconds until the mixture is well combined and dark in color.
+### 4. Add Liquids and Lentils
+- Pour in the vegetable stock and canned tomatoes.
+- Gently crush the tomatoes with your spoon to break them up.
+- Bring the mixture to a boil, then add the red lentils.
+- Stir to combine, reduce the heat to medium-low, cover, and let it simmer gently for 20 minutes, stirring every 5 minutes.
 
-5. **Add Liquids and Lentils**: Pour in the vegetable stock and canned tomatoes. Gently crush the tomatoes with your spoon to break them up. Bring the mixture to a boil.
+### 5. Add the Beans
+- Add the black beans along with their liquid.
+- Drain and rinse the kidney beans, then add them to the pot.
+- Stir well and let the chili simmer uncovered for 10 minutes.
 
-6. **Cook Lentils**: Once boiling, add the red lentils. Stir to combine, reduce the heat to medium-low, cover, and let it simmer gently for 20 minutes, stirring every 5 minutes to prevent sticking.
+### 6. Season the Chili
+- Add a few dashes of Worcestershire sauce and Tabasco sauce.
+- Taste the chili and adjust the seasoning with salt and additional spices as needed.
+- Optionally, add lime juice for acidity or a small amount of brown sugar for sweetness.
 
-7. **Add Beans**: After 20 minutes, add the black beans along with their liquid. Drain and rinse the kidney beans before adding them to the pot. Stir everything together and let it simmer uncovered for 10 minutes to heat the beans through.
-
-8. **Season to Taste**: Add a few dashes of Worcestershire sauce and Tabasco sauce. Taste the chili and adjust the seasoning as needed with salt and additional spices. If desired, add the juice of half a lime for acidity or a small amount of brown sugar for sweetness. Adjust these optional ingredients to your personal taste.
-
-9. **Serve**: Once seasoned to your liking, serve the chili on its own or over rice. Top with your choice of cheese, sour cream, and chopped scallions.
+### 7. Serve
+- Serve the chili on its own or over rice.
+- Garnish with cheese, sour cream, and chopped scallions, if desired.
