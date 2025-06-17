@@ -9,15 +9,17 @@ Serves 4
 
 ## Ingredients
 
-- 2 tbsp extra virgin olive oil
-- 400g new potatoes, cut lengthways
+- 1½ tbsp extra virgin olive oil
+- 400g baby new potatoes, halved lengthways
 - 1 brown onion, roughly chopped
-- 400g tin chopped tomatoes
+- 150g cherry tomatoes, halved
+- 2 red peppers, roughly chopped
+- 1 x 400g tin chopped tomatoes
 - 100ml vegetable stock
 - 1 tbsp tomato puree
-- 80g olives
+- 50g olives
 - 4 cod fillets
-- Large handful fresh basil, finely sliced
+- 1 large handful fresh basil, finely sliced
 - 1 handful pomegranate seeds (optional)
 
 ## Method
