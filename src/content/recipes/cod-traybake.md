@@ -5,8 +5,6 @@ complexity: medium
 category: dinner
 ---
 
-# Mediterranean Cod Traybake
-
 Serves 4
 
 ## Ingredients
