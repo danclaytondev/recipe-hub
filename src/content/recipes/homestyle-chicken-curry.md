@@ -15,8 +15,8 @@ category: dinner
 - 1/4 tsp chilli
 - 1/2 tsp turmeric
 - 2 tsp garam masala
-- 1.5 tsp cumin
-- 1.5 tsp coriander
+- 1 1/2 tsp cumin
+- 1 1/2 tsp coriander
 - 1/2 tsp cinnamon
 - 1 tsp sugar
 - Tomato puree or tin of tomatoes
@@ -31,9 +31,10 @@ category: dinner
 
 ## Method
 
-1. Fry the onions with ginger and garlic until browned. Add salt.
-2. Add the chilli, turmeric, garam masala, cumin, coriander, cinnamon and chicken. Mix through.
-3. Add sugar, tomato puree (or tin of tomatoes) and water.
-4. Add carrots, potato, star anise, bay leaves, black cardamom and green cardamom.
-5. Simmer until cooked through.
-6. Garnish with fresh coriander.
+1. Fry the onions until browned. Add salt.
+2. Add the ginger and garlic.
+3. Add the chilli, turmeric, garam masala, cumin, coriander, cinnamon and chicken. Mix through.
+4. Add sugar, tomato puree (or tin of tomatoes) and water.
+5. Add carrots, potato, star anise, bay leaves, black cardamom and green cardamom.
+6. Simmer until cooked through.
+7. Garnish with fresh coriander.
