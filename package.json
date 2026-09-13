@@ -4,7 +4,6 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "tina-dev": "tinacms dev --datalayer-port 9001 -c 'astro dev'",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
@@ -14,13 +13,10 @@
   "dependencies": {
     "@astrojs/tailwind": "^4.0.0",
     "astro": "^2.10.15",
-    "tailwindcss": "^3.4.19",
-    "tinacms": "0.0.0-20230628172204"
+    "tailwindcss": "^3.4.19"
   },
   "devDependencies": {
-    "@tinacms/cli": "0.0.0-20230628172204",
     "@types/node": "^20.19.43",
-    "node-gyp": "^13.0.2",
     "prettier": "^3.9.6",
     "prettier-plugin-astro": "^0.11.1"
   }
